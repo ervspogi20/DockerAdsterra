@@ -9,7 +9,7 @@ on:
       - master
 
 jobs:
-  test:
+  run:
     runs-on: ubuntu-latest
     
     steps:
@@ -30,4 +30,4 @@ jobs:
         
     - name: Run tests
       run: |
-        pytest tests/Adsterra.py
+        python tests/Adsterra.py
