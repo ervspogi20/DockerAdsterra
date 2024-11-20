@@ -22,7 +22,7 @@ jobs:
     
     - name: Build and run Docker container
       run: |
-        docker-compose up -d
+        docker compose up -d
         
     - name: Install dependencies
       run: |
